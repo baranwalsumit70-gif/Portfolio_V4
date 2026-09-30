@@ -171,7 +171,7 @@
 
   function load() {
     if (loadP) return loadP;
-    loadP = fetch((window.__resources && window.__resources.slotstate) || STATE_FILE)
+    loadP = (window.__slotMap ? Promise.resolve({ ok: true, json: () => window.__slotMap }) : fetch((window.__resources && window.__resources.slotstate) || STATE_FILE))
       .then((r) => (r.ok ? r.json() : null))
       .then((j) => {
         // Merge: sidecar loses to any in-memory change that raced ahead of

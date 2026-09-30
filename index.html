@@ -104,7 +104,7 @@
   <link rel="stylesheet" href="_ds/shadcn-ui-design-system-78dd7306-68f4-4f3d-a1b1-8768c357041b/components.css">
   <link rel="stylesheet" href="_ds/shadcn-ui-design-system-78dd7306-68f4-4f3d-a1b1-8768c357041b/styles.css">
   <script src="_ds/shadcn-ui-design-system-78dd7306-68f4-4f3d-a1b1-8768c357041b/_ds_bundle.js"></script>
-  <script>window.__resources = Object.assign(window.__resources || {}, { slotstate: "slot-images.json" });</script><script src="./image-slot.js"></script>
+  <script>window.__slotMap = {"char-hero":{"u":"assets/slots/char-hero.webp","s":1,"x":0,"y":0},"char-desk":{"u":"assets/slots/char-desk.webp","s":1,"x":0,"y":0},"tool-gemini":{"u":"assets/slots/tool-gemini.webp","s":1,"x":0,"y":0},"char-ideate":{"u":"assets/slots/char-ideate.webp","s":1,"x":0,"y":0},"char-hero-closed":{"s":1,"x":0,"y":0,"u":"assets/slots/char-hero-closed.webp"},"cs-01-hero":{"s":1,"x":0,"y":27.36856865943163,"u":"assets/slots/cs-01-hero.webp"},"cs-01-research":{"u":"assets/slots/cs-01-research.webp","s":1,"x":0,"y":0},"cs-01-stakeholders":{"u":"assets/slots/cs-01-stakeholders.webp","s":1,"x":0,"y":0},"cs-01-flows":{"u":"assets/slots/cs-01-flows.webp","s":1,"x":0,"y":0},"cs-01-personas":{"u":"assets/slots/cs-01-personas.webp","s":1,"x":0,"y":0},"cs-01-m-ticketing":{"u":"assets/slots/cs-01-m-ticketing.webp","s":1,"x":0,"y":0},"cs-01-m-dashboard":{"s":1,"x":0,"y":14.933333333333332,"u":"assets/slots/cs-01-m-dashboard.webp"},"cs-01-m-routes":{"s":1,"x":0,"y":17.273999614365792,"u":"assets/slots/cs-01-m-routes.webp"},"cs-01-m-ops":{"s":1,"x":0,"y":17.226358888650108,"u":"assets/slots/cs-01-m-ops.webp"},"cs-01-m-safety":{"s":1,"x":0,"y":0,"u":"assets/slots/cs-01-m-safety.webp"},"cs-01-m-complaints":{"s":1,"x":0,"y":0,"u":"assets/slots/cs-01-m-complaints.webp"},"cs-02-hero":{"s":1,"x":0,"y":18.666666666666654,"u":"assets/slots/cs-02-hero.webp"},"cs-06-hero":{"u":"assets/slots/cs-06-hero.webp","s":1,"x":0,"y":0},"cs-05-hero":{"s":1,"x":0,"y":-16.596669981704444,"u":"assets/slots/cs-05-hero.webp"},"cs-05-r-define":{"s":1,"x":0,"y":0},"logo-iitg":{"u":"assets/slots/logo-iitg.webp","s":1,"x":0,"y":0},"logo-kiet":{"u":"assets/slots/logo-kiet.webp","s":1,"x":0,"y":0},"cs-07-hero":{"u":"assets/slots/cs-07-hero.webp","s":1,"x":0,"y":0},"logo-iitg-photo-1":{"u":"assets/slots/logo-iitg-photo-1.webp","s":1,"x":0,"y":0},"logo-iitg-photo-2":{"s":1.361072731925977,"x":4.040166747601406,"y":-4.840496952668771,"u":"assets/slots/logo-iitg-photo-2.webp"},"logo-kiet-photo-1":{"u":"assets/slots/logo-kiet-photo-1.webp","s":1,"x":0,"y":0},"logo-kiet-photo-2":{"u":"assets/slots/logo-kiet-photo-2.webp","s":1,"x":0,"y":0},"card-7":{"s":1,"x":-2.914228975886097,"y":0}};</script><script src="./image-slot.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
@@ -157,7 +157,7 @@
                 <div data-char-breathe="" style="height:100%;aspect-ratio:3/4;overflow:hidden">
                   <div data-char-flip="" style="height:100%;position:relative">
                     <div data-pose-open="" style="position:absolute;inset:0;opacity:0">
-                      <image-slot id="char-hero" transparent="" shape="rect" fit="contain" placeholder="Pose 2: laptop open"></image-slot>
+                      <image-slot id="char-hero" src="assets/slots/char-hero.webp" transparent="" shape="rect" fit="contain" placeholder="Pose 2: laptop open"></image-slot>
                     </div>
                     <div data-pose-closed="" style="position:absolute;inset:0;transform-origin:50% 100%;-webkit-mask-image:linear-gradient(to bottom, #000 72%, transparent 96%);mask-image:linear-gradient(to bottom, #000 72%, transparent 96%)">
                       <image-slot id="char-hero-closed" transparent="" shape="rect" fit="contain" src="assets/char-closed.png" placeholder="Pose 1: laptop closed"></image-slot>
@@ -180,7 +180,7 @@
       <div data-panel="" class="dark" aria-hidden="true" style="position:absolute;inset:0;z-index:5;visibility:hidden;opacity:0;background:var(--background);color:var(--foreground)">
         <div data-panel-scene="" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:clamp(72px,10vh,120px) clamp(20px,6vw,96px) clamp(40px,6vh,72px);box-sizing:border-box;visibility:hidden;opacity:0">
           <div style="position:relative;width:100%;max-width:1100px;flex:1;min-height:0;max-height:70vh">
-            <image-slot id="char-ideate" transparent="" shape="rect" fit="contain" placeholder="Character brainstorming, mind-mapping and prototyping"></image-slot>
+            <image-slot id="char-ideate" src="assets/slots/char-ideate.webp" transparent="" shape="rect" fit="contain" placeholder="Character brainstorming, mind-mapping and prototyping"></image-slot>
           </div>
           
         </div>
@@ -265,7 +265,7 @@
               <div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:2px">
                 <sc-for list="{{ allCats }}" as="c" hint-placeholder-count="6">
                   <button onClick="{{ c.pick }}" aria-pressed="{{ c.sel }}" style="height:30px;flex:none;padding:0 12px;border-radius:999px;border:1px solid var(--border);background:{{ c.bg }};color:var(--foreground);font-family:inherit;font-size:12px;font-weight:500;white-space:nowrap">{{ c.label }}</button>
-                </sc-for>
+                </sc-for><button type="button" onClick="{{ openIntro }}" style="height:30px;flex:none;display:flex;align-items:center;gap:6px;padding:0 12px;border-radius:999px;border:1px solid var(--foreground);background:var(--foreground);color:var(--background);font-family:inherit;font-size:12px;font-weight:500;white-space:nowrap"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>Watch intro</button>
               </div>
             </sc-if>
             <sc-if value="{{ gridView }}" hint-placeholder-val="{{ true }}">
@@ -319,7 +319,7 @@
                     <span style="flex:none;font-size:12px;color:var(--muted-foreground);font-variant-numeric:tabular-nums;white-space:nowrap">{{ e.period }}</span>
                     <sc-if value="{{ e.acc }}" hint-placeholder-val="{{ false }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--muted-foreground);transition:transform .2s;transform:rotate({{ e.rot }}deg)"><path d="m6 9 6 6 6-6"></path></svg></sc-if>
                   </div>
-                  <sc-if value="{{ e.open }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:4px 12px 16px 68px"><div style="aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--muted)"><image-slot id="{{ e.logo }}-photo-1" shape="rect" fit="cover" placeholder="Campus or project photo"></image-slot></div><div style="aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--muted)"><image-slot id="{{ e.logo }}-photo-2" shape="rect" fit="cover" placeholder="Campus or project photo"></image-slot></div></div></sc-if>
+                  <sc-if value="{{ e.open }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:4px 12px 16px 68px"><div style="aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--muted)"><image-slot id="{{ e.logo }}-photo-1" data-src="assets/slots/{{ e.logo }}-photo-1.webp" shape="rect" fit="cover" placeholder="Campus or project photo"></image-slot></div><div style="aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--muted)"><image-slot id="{{ e.logo }}-photo-2" data-src="assets/slots/{{ e.logo }}-photo-2.webp" shape="rect" fit="cover" placeholder="Campus or project photo"></image-slot></div></div></sc-if>
                   </div>
                 </sc-for>
               </div>
@@ -356,7 +356,7 @@
       <sc-if value="{{ wide }}" hint-placeholder-val="{{ true }}">
         <div data-eco="" onMouseMove="{{ ecoMove }}" onMouseLeave="{{ ecoLeave }}" style="position:relative;height:max(560px,76vh)">
           <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-46%);height:48%;aspect-ratio:3/4">
-            <image-slot id="char-desk" transparent="" shape="rect" fit="contain" placeholder="Character at desk"></image-slot>
+            <image-slot id="char-desk" src="assets/slots/char-desk.webp" transparent="" shape="rect" fit="contain" placeholder="Character at desk"></image-slot>
           </div>
           <sc-for list="{{ tools }}" as="t" hint-placeholder-count="16">
             <div data-tool="" style="position:absolute;left:{{ t.left }};top:{{ t.top }};width:64px;height:64px;margin:-32px 0 0 -32px;display:flex;align-items:center;justify-content:center">
@@ -367,7 +367,7 @@
       </sc-if>
       <sc-if value="{{ narrow }}" hint-placeholder-val="{{ false }}">
         <div style="display:flex;flex-direction:column;align-items:center;gap:32px;padding:32px 0">
-          <div style="height:260px;aspect-ratio:3/4"><image-slot id="char-desk-m" transparent="" shape="rect" fit="contain" placeholder="Character at desk"></image-slot></div>
+          <div style="height:260px;aspect-ratio:3/4"><image-slot id="char-desk-m" src="assets/slots/char-desk.webp" transparent="" shape="rect" fit="contain" placeholder="Character at desk"></image-slot></div>
           <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:12px;width:100%">
             <sc-for list="{{ tools }}" as="t" hint-placeholder-count="16">
               <button aria-label="{{ t.name }}" title="{{ t.name }}" onClick="{{ t.enter }}" onFocus="{{ t.enter }}" style="aspect-ratio:1/1;border-radius:var(--radius-lg);background:var(--card);border:1px solid var(--border);padding:10px;box-sizing:border-box;color:var(--foreground);opacity:{{ t.op }};transition:opacity .3s, color .2s" style-hover="color:{{ t.brand }};border-color:{{ t.brand }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="{{ t.d }}"></path></svg></button>
@@ -566,7 +566,7 @@ class Component extends DCLogic {
       purpose: "BuildUp India offers tailored construction services, handling both civil and electrical works. The company needed an identity that feels solid and dependable, and a website that explains its services and builds trust with clients.",
       deliver: ["Logo mark inspired by a brick, drawn on a construction grid", "Horizontal and vertical lockups for light and dark backgrounds", "Colour palette: #FF6D17 orange, #000000 black, #FFFFFF white", "Brand applications: business card, poster and presentation layouts", "Website design and launch at buildupindia.com"],
       gallery: [{ id: "g-insp", src: "assets/bui-inspiration.webp", ar: "2742/1542", n: "Inspiration: brick" }, { id: "g-grid", src: "assets/bui-construct.webp", ar: "16/9", n: "Mark construction" }, { id: "g-lock-l", src: "assets/bui-lockup-light.webp", ar: "16/9", n: "Lockups on light" }, { id: "g-lock-d", src: "assets/bui-lockup-dark.webp", ar: "16/9", n: "Lockups on dark" }, { id: "g-colour", src: "assets/bui-colour.webp", ar: "16/9", n: "Colour code" }, { id: "g-logo", src: "assets/bui-logo-white.webp", ar: "16/9", n: "Primary logo" }, { id: "g-poster", src: "assets/bui-poster.webp", ar: "2560/3314", n: "Poster" }, { id: "g-card", src: "assets/bui-card.webp", ar: "1/1", n: "Business card" }, { id: "g-about", src: "assets/bui-about.webp", ar: "16/9", n: "Company profile" }, { id: "g-photos", src: "assets/bui-photos.webp", ar: "16/9", n: "Photography direction" }] },
-    "08": { title: "Nivala Foods: Website design", role: "Web design", type: "Website design", summary: "Website design for Nivala Foods, a food brand selling online.", simple: true, heroPh: "Nivala Foods website hero", heroSrc: "assets/nivala-hero.webp", heroAr: "1676/938", figma: "https://nivalafoods.com/",
+    "08": { title: "Nivala Foods: Website design", role: "Web design", type: "Website design", summary: "Website design for Nivala Foods, a food brand selling online.", simple: true, heroPh: "Nivala Foods website hero", figma: "https://nivalafoods.com/",
       purpose: "Nivala Foods needed a website that introduces the brand, presents its products clearly and makes it easy for visitors to browse and buy.",
       deliver: ["Homepage design with brand story and hero", "Product listing and product pages", "Brand visuals applied across the site", "Responsive layouts for mobile and desktop", "Build and launch of the live site"] },
     "07": { title: "Atomprints: Website design", role: "Web design", type: "Website design", summary: "Website design for Atomprints, built and published on Framer.", simple: true, heroPh: "Atomprints website hero",
@@ -585,7 +585,7 @@ class Component extends DCLogic {
       solution: "A centralized ERP dashboard that lets ferry authorities:",
       solList: ["Monitor operations in real time", "Improve safety compliance", "Digitize ticketing and revenue tracking", "Make informed decisions with live data"],
       steps: [["Field research", "Visits to Mazgaon, Rajaduar and Madhyamkhanda ghats."], ["Systems thinking", "Stakeholder value web and PESTEL analysis."], ["Analysis", "80/20 rule, garbage in/garbage out, scaling fallacy, comparison with railways, metro and bus."], ["Define", "Two personas: a terminal manager and a ferry authority admin."], ["Flows", "Admin, terminal manager and ticket validation flows."]],
-      procImgs: [{ id: "research", ph: "Field research at the ghats", cap: "Field research" }, { id: "stakeholders", ph: "Stakeholder value web", cap: "Stakeholder value web" }, { id: "personas", ph: "User personas", cap: "Personas: terminal manager and authority admin" }, { id: "flows", ph: "Admin user flow", cap: "Admin user flow" }],
+      procImgs: [{ id: "research", src: "assets/slots/cs-01-research.webp", ph: "Field research at the ghats", cap: "Field research" }, { id: "stakeholders", src: "assets/slots/cs-01-stakeholders.webp", ph: "Stakeholder value web", cap: "Stakeholder value web" }, { id: "personas", src: "assets/slots/cs-01-personas.webp", ph: "User personas", cap: "Personas: terminal manager and authority admin" }, { id: "flows", src: "assets/slots/cs-01-flows.webp", ph: "Admin user flow", cap: "Admin user flow" }],
       modules: [
         { id: "m-dashboard", src: "assets/ferry-dashboard-content.webp", ar: "2097/2027", ph: "Dashboard", n: "Dashboard", d: "Live ferry movement, capacity and boarding status in one overview." },
         { id: "m-ticketing", src: "assets/ferry-ticketing.webp", ar: "2922/1832", ph: "Ticketing", n: "Ticketing", d: "Fast, high-volume ticket flow with CSV export and a manual fallback for low connectivity." },
